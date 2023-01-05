@@ -79,6 +79,41 @@ button{
 .div1 button{
     border: none;
 }
+/*div2 styling (photo gallery)*/
+.div2 h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin-bottom: 40px;
+}
+.div2 p{
+    text-align: center;
+}
+.imageGallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imageGallery img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    transition: width 1s;
+    transition: height 1s;
+}
+.imageGallery img:hover{ 
+    box-shadow: 3px 3px rgb(94, 126, 231);
+}
 /*div3 styling (quote)*/
 .div3{
     background-color: #e5e7eb;
