@@ -39,12 +39,15 @@ p.logo{
     display: flex;
     
 }
-.topbar ul li{
-    padding: 0 15px;
-}
 .topbar ul li a{
     text-decoration: none;
     color: #e5e7eb;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.topbar ul li a:hover{
+    color:#3882f6;
+    background-color:#e5e7eb;
 }
 
 /*styling for section one including header*/
