@@ -121,6 +121,37 @@ button{
 .div3{
     background-color: #e5e7eb;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.quoteText{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+.quoteSpeaker{
+    align-self: flex-end;
+    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+}
+/*div 4 (call to action)*/
+.div4content{
+    background-color:#3882f6;
+    margin: 50px 20%;
+    color: #f9faf8;
+}
+.callToAction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.callWords p{
+    color: #e5e7eb;
+}
 /*footer*/
 footer{
     text-align: center;
