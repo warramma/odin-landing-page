@@ -74,6 +74,14 @@ button{
     border-radius: 5px;
     border: 1px solid white;
     cursor: pointer;
+    transition: padding 1s, box-shadow 1s;
+    
+}
+button:hover{
+    
+    transition-timing-function: ease-out;
+    padding: 8px 40px;
+    box-shadow: 2px 2px white;
 }
 /*style header button*/
 .div1 button{
@@ -125,7 +133,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 50px 60px;
 }
 .quoteText{
     font-size: 36px;
@@ -143,6 +151,7 @@ button{
     background-color:#3882f6;
     margin: 50px 20%;
     color: #f9faf8;
+    border-radius: 5px;
 }
 .callToAction{
     display: flex;
